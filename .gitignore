@@ -1,0 +1,38 @@
+﻿# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# ROS 2 / colcon build outputs
+# -----------------------------
+ros2_package/build/
+ros2_package/install/
+ros2_package/log/
+
+# -----------------------------
+# Misc temporary files
+# -----------------------------
+*.log
+*.tmp
+*.temp
